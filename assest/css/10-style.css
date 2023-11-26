@@ -1,0 +1,11 @@
+:root{
+    --primary:purple;
+}
+
+.text-danger{
+    color: purple !important;
+}
+
+.bg-info{
+    background-color:goldenrod !important;
+}
