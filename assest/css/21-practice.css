@@ -1,0 +1,27 @@
+.menuCard {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.menuCard .card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.menuCard .card .card-footer > div {
+  border-right: 1px solid gray;
+  flex: 1;
+  padding: 10px;
+}
+
+.menuCard .card .card-footer > div:last-child {
+  border-right: none;
+}
+
+@media screen and(min-width:768px){
+    .menuCard div[class^="col"]:nth-child(2).card{
+transform: scale(1.2);
+    }
+}
+
