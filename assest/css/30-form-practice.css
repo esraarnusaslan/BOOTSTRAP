@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(106, 115, 115);
+  padding: 5px;
+}
+
+.register-form .card-body {
+  padding: 30px 50px;
+}
+
+.register-form .avatar {
+  background-color: rgb(16, 16, 169);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.register-form .card {
+  border-radius: 25px;
+}
+
+.register-form form {
+  margin: 50px 0 20px 0;
+}
+
+.register-form form input,
+.register-form form button {
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+.register-form .card-footer {
+  text-align: center;
+}
+
+.register-form .card-footer .icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
