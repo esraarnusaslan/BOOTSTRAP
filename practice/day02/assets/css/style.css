@@ -1,0 +1,17 @@
+html,
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.form-container{
+    max-width: 1000px;
+    height: 1000px;
+}
+
+.logo{
+    z-index: -3;
+}
