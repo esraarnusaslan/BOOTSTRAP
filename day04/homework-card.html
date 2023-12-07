@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<style>
+    img {
+        border-radius: 50%;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    .container {
+        background-color: rgb(225, 218, 218);
+        box-shadow: 0 3px 10px rgba(128, 128, 128, 0.722);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px;
+        height: 1500px;
+
+    }
+
+
+    .card {
+        box-shadow: 0 3px 10px rgba(128, 128, 128, 0.722);
+        width: 350px;
+        height: 400px;
+    }
+
+    .footer span {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer span:nth-child(1) {
+        background-color: #0a66c2;
+        color: white;
+    }
+
+    .footer span:nth-child(2) {
+        background-color: rgb(208, 201, 201);
+        color: black;
+    }
+
+    .footer span:nth-child(3) {
+        background-color: #3b5998;
+        color: white;
+    }
+</style>
+
+
+
+<body class=" d-flex justify-content-center align-items-center">
+
+    <div class=" container">
+
+       <!--  TITLE -->
+        <h2 class="text-center mt-5">Our Team</h2>
+        <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, reiciendis!
+        </p>
+
+        <!-- ROW -->
+        <div class="row row-cols-2 row-cols-lg-3">
+
+            <!-- COL-1 -->
+            <div class="col">
+                <div class="card d-flex flex-column align-items-center mb-5">
+                    <div class="card-body text-center">
+                        <div>
+                            <img src="https://randomuser.me/api/portraits/men/1.jpg" class=" w-50 px-3 py-3">
+                        </div>
+                        <h3 class="card-title mb-1">John Doe</h3>
+                        <h5 class="text-dark-emphasis fst-italic fw-lighter">CEO</h5>
+                        <p class="card-text text-dark-emphasis">Some quick example text to build on the card title
+                            and
+                            make
+                            up
+                            the bulk of the card's content.</p>
+                    </div>
+                    <div class="footer d-flex justify-content-center gap-4 mb-2 text-primary fs-5 mt-4">
+                        <span>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-github"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+              <!-- COL-2 -->
+            <div class="col">
+                <div class="card d-flex flex-column align-items-center">
+                    <div class="card-body text-center">
+                        <div>
+                            <img src="https://randomuser.me/api/portraits/men/2.jpg" class=" w-50 px-3 py-3">
+                        </div>
+                        <h3 class="card-title mb-1">John Doe</h3>
+                        <h5 class="text-dark-emphasis fst-italic fw-lighter">CEO</h5>
+                        <p class="card-text text-dark-emphasis">Some quick example text to build on the card title
+                            and
+                            make
+                            up
+                            the bulk of the card's content.</p>
+                    </div>
+                    <div class="footer d-flex justify-content-center gap-4 mb-2 text-primary fs-5 mt-4">
+                        <span>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-github"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+              <!-- COL-3 -->
+            <div class="col">
+                <div class="card d-flex flex-column align-items-center">
+                    <div class="card-body text-center">
+                        <div>
+                            <img src="https://randomuser.me/api/portraits/women/3.jpg" class=" w-50 px-3 py-3">
+                        </div>
+                        <h3 class="card-title mb-1">John Doe</h3>
+                        <h5 class="text-dark-emphasis fst-italic fw-lighter">CEO</h5>
+                        <p class="card-text text-dark-emphasis">Some quick example text to build on the card title
+                            and
+                            make
+                            up
+                            the bulk of the card's content.</p>
+                    </div>
+                    <div class="footer d-flex justify-content-center gap-4 mb-2 text-primary fs-5 mt-4">
+                        <span>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-github"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+              <!-- COL-4 -->
+            <div class="col">
+                <div class="card d-flex flex-column align-items-center">
+                    <div class="card-body text-center">
+                        <div>
+                            <img src="https://randomuser.me/api/portraits/women/4.jpg" class=" w-50 px-3 py-3">
+                        </div>
+                        <h3 class="card-title mb-1">John Doe</h3>
+                        <h5 class="text-dark-emphasis fst-italic fw-lighter">CEO</h5>
+                        <p class="card-text text-dark-emphasis">Some quick example text to build on the card title
+                            and
+                            make
+                            up
+                            the bulk of the card's content.</p>
+                    </div>
+                    <div class="footer d-flex justify-content-center gap-4 mb-2 text-primary fs-5 mt-4">
+                        <span>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-github"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+              <!-- COL-5 -->
+            <div class="col">
+                <div class="card d-flex flex-column align-items-center">
+                    <div class="card-body text-center">
+                        <div>
+                            <img src="https://randomuser.me/api/portraits/women/5.jpg" class=" w-50 px-3 py-3">
+                        </div>
+                        <h3 class="card-title mb-1">John Doe</h3>
+                        <h5 class="text-dark-emphasis fst-italic fw-lighter">CEO</h5>
+                        <p class="card-text text-dark-emphasis">Some quick example text to build on the card title
+                            and
+                            make
+                            up
+                            the bulk of the card's content.</p>
+                    </div>
+                    <div class="footer d-flex justify-content-center gap-4 mb-2 text-primary fs-5 mt-4">
+                        <span>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-github"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+              <!-- COL-6 -->
+            <div class="col">
+                <div class="card d-flex flex-column align-items-center">
+                    <div class="card-body text-center">
+                        <div>
+                            <img src="https://randomuser.me/api/portraits/men/6.jpg" class=" w-50 px-3 py-3">
+                        </div>
+                        <h3 class="card-title mb-1">John Doe</h3>
+                        <h5 class="text-dark-emphasis fst-italic fw-lighter">CEO</h5>
+                        <p class="card-text text-dark-emphasis">Some quick example text to build on the card title
+                            and
+                            make
+                            up
+                            the bulk of the card's content.</p>
+                    </div>
+                    <div class="footer d-flex justify-content-center gap-4 mb-2 text-primary fs-5 mt-4">
+                        <span>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-github"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
