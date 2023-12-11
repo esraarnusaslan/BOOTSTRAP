@@ -27,6 +27,28 @@ body {
   z-index: -1;
 }
 
+.upside-pages {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.upside-pages::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/youtube/sosyal-bilisim/image/pages.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+/* ! NAVBAR */
 .nav-bg {
   background-color: rgba(104, 102, 102, 0.568);
 }
@@ -72,6 +94,20 @@ body {
   }
 }
 
+.header-height{
+    height: calc(50vh - 100px);
+}
+
+.pages h3{
+    color: #f4b70b;
+    font-weight: bold;
+}
+
+.pages p{
+    color: #0c0c0ca1;
+    font-weight: bold;
+}
+
 .logo2 {
   border-radius: 50%;
   height: 200px !important;
@@ -79,6 +115,13 @@ body {
 
 .space {
   margin-top: 100px;
+}
+
+/* ! ABOUT US */
+
+.goals-img {
+    height: 200px;
+    
 }
 
 /* ! OUR SERVICES  */
@@ -141,27 +184,26 @@ body {
 
 /* ! OUR WORK  */
 
-.study{
-padding: 5px;
-
+.study {
+  padding: 5px;
+  border: 1px solid transparent;
 }
 
-.study:hover{
-   border: 1px solid gray; 
-   cursor: pointer;
+.study:hover {
+  border: 1px solid gray;
+  cursor: pointer;
 }
 
-.study img{
-    height: 150px;
-    margin-bottom: 13px;
+.study img {
+  height: 150px;
+  margin-bottom: 13px;
 }
-
 
 /* ! FOOTER */
 
-.footer{
-    background-color:#2c3e50 ;
-    height: 300px;
-    color: black;
-    font-size: 16px;
+.footer {
+  background-color: #2c3e50;
+  height: 300px;
+  color: black;
+  font-size: 16px;
 }
