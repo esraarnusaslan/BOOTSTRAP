@@ -1,0 +1,167 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.upside,
+.slogan {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.upside::before,
+.slogan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/youtube/sosyal-bilisim/image/pexels-fauxels-3184454.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+.nav-bg {
+  background-color: rgba(104, 102, 102, 0.568);
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.navbar-toggler {
+  color: white !important;
+}
+
+.nav-item a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #f4b70b;
+}
+
+.ayrac {
+  font-size: 20px;
+  margin: 0 20px;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .ayrac {
+    display: none;
+  }
+
+  .nav-item:hover {
+    background-color: black;
+  }
+}
+
+.logo2 {
+  border-radius: 50%;
+  height: 200px !important;
+}
+
+.space {
+  margin-top: 100px;
+}
+
+/* ! OUR SERVICES  */
+.offer {
+  height: 60px;
+}
+
+.quote {
+  color: #f4b70b;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.signature {
+  font-size: 20px;
+}
+
+.our-services {
+  background-color: #f4b70b;
+}
+
+/* ! HOW ARE WE  */
+
+.img-foto {
+  border-radius: 50%;
+}
+
+.icons .fa-pen,
+.fa-plus,
+.fa-rocket {
+  font-size: 130px;
+  color: #f4b70b;
+}
+
+/* ! SLOGAN  */
+
+.quote1 {
+  color: #e7e1d2;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.word {
+  font-size: 40px;
+  color: #f4b70b;
+  letter-spacing: 3px;
+}
+
+.rocket-icon {
+  font-size: 150px;
+  color: rgb(156, 147, 147);
+}
+
+.slogan {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+/* ! OUR WORK  */
+
+.study{
+padding: 5px;
+
+}
+
+.study:hover{
+   border: 1px solid gray; 
+   cursor: pointer;
+}
+
+.study img{
+    height: 150px;
+    margin-bottom: 13px;
+}
+
+
+/* ! FOOTER */
+
+.footer{
+    background-color:#2c3e50 ;
+    height: 300px;
+    color: black;
+    font-size: 16px;
+}
