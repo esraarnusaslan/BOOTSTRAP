@@ -94,18 +94,18 @@ body {
   }
 }
 
-.header-height{
-    height: calc(50vh - 100px);
+.header-height {
+  height: calc(50vh - 100px);
 }
 
-.pages h3{
-    color: #f4b70b;
-    font-weight: bold;
+.pages h3 {
+  color: #f4b70b;
+  font-weight: bold;
 }
 
-.pages p{
-    color: #0c0c0ca1;
-    font-weight: bold;
+.pages p {
+  color: #0c0c0ca1;
+  font-weight: bold;
 }
 
 .logo2 {
@@ -120,8 +120,7 @@ body {
 /* ! ABOUT US */
 
 .goals-img {
-    height: 200px;
-    
+  height: 200px;
 }
 
 /* ! OUR SERVICES  */
@@ -197,6 +196,11 @@ body {
 .study img {
   height: 150px;
   margin-bottom: 13px;
+}
+
+/* ! BLOG  */
+.more a:hover {
+  color: black !important;
 }
 
 /* ! FOOTER */
