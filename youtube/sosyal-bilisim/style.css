@@ -203,6 +203,12 @@ body {
   color: black !important;
 }
 
+/* ! CONTACT  */
+
+.message-icon {
+  font-size: 150px;
+  color: #f4b70b;
+}
 /* ! FOOTER */
 
 .footer {
